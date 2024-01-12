@@ -15,7 +15,7 @@ public class HelloWorldApplication {
 
         @GetMapping("/")
         public String index() {
-            return "Hello ! \n Name: Anindita \n Email: aninditaharvey.kashinath@kickdrumtech.com";
+            return "Hello Anindita, KD-24 batch (Azure)";
         }
 
         @GetMapping("/hello")
